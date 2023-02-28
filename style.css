@@ -1,0 +1,51 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	cursor: pointer;
+}
+
+.background {
+	background: rgb(241, 239, 247);
+	background-blend-mode: darken;
+	background-size: cover;
+}
+
+.nav-list {
+	justify-content: space-between;
+	width: 70%;
+	display: flex;
+	align-items: center;
+}
+.rightnav {
+	width: 30%;
+	text-align: right;
+}
+
+#search {
+	padding: 5px;
+	font-size: 17px;
+	border: 2px solid grey;
+	border-radius: 9px;
+}
+
+.firstHalf{
+	display: flex;
+	height: 500px;
+	background-color: rgb(119, 181, 216);
+
+}
+
+.first{
+	width: 600px;
+}
+.firstImage{
+	justify-content: end;
+}
+
+body{
+	justify-content: center;
+
+}
